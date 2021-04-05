@@ -46,6 +46,7 @@ func main() {
 	//	установки log-файла
 	infolog := glg.FileWriter("photo_cache_service.log", 0666) // открытие лог.файла
 	defer infolog.Close()
+	// var customErrLevel glg.LEVEL
 	customErrLevel := "FINE"
 	//	customErrLevel := "CRIT"
 	//	customErrLevel := "DEBUG"
@@ -53,7 +54,7 @@ func main() {
 		//SetMode(glg.BOTH). // default is STD
 		AddWriter(infolog).
 		SetWriter(infolog).
-		SetLevelColor(customErrLevel, glg.Red) // set color output to user custom level
+		SetLevelColor(glg.TagStringToLevel(customErrLevel), glg.Red) // set color output to user custom level
 	//	завершение установки log-файла
 
 	glg.Infof("%s", "started")
