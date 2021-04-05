@@ -1,0 +1,14 @@
+.col-xs-6,.col-sm-4,.col-md-3,.col-lg-2 {
+    padding-top: 5px;
+}
+
+.custom-folder-img {
+    height: 80px;
+}
+
+.custom-arrow-size {
+	font-size: 40px;	
+}
+.custom-arrot-disabled {
+	color: lightgrey;
+}

@@ -1,0 +1,1 @@
+go-bindata www/ www/i/ www/i/fancybox
