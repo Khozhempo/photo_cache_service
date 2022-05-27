@@ -1,1 +1,0 @@
-go-bindata -debug www/ www/i/ www/i/fancybox
