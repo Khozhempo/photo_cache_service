@@ -1,6 +1,8 @@
 # photo_cache_service
 Webserver for images and photos with cache of thumbnails and images.
 
+!!! PERMANENTLY moved to new address: https://git.khoz.ru/Khoz/photo_cache_service
+
 Simple and very fast webserver, which helps you to browse your photoalbums. For comfort work it creates thumbnails and small copies of all images.
 
 INSTALLATION
